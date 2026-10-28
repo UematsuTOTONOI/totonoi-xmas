@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Xmasプラン DM限定予約フォーム｜TOTONOI富士山中湖</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#b88931;--gold2:#d6ad61;--ink:#2b2620;--bg:#faf7f1;--line:#e4dccd;--red:#8e2a2a;--green:#2f4a3a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Serif JP",serif;line-height:1.8}
+header{background:linear-gradient(rgba(20,30,24,.55),rgba(20,30,24,.7)),url(https://www.yamanashi-sauna-glamping.com/wp-content/themes/rg_totonoi/img/swiper/mv1.jpg) center/cover;color:#fff;text-align:center;padding:56px 16px 44px}
+header .en{font-family:"Cormorant Garamond",serif;letter-spacing:.2em;color:var(--gold2);font-size:15px}
+header h1{font-size:24px;margin:6px 0 10px;font-weight:600}
+header .badge{display:inline-block;border:1px solid var(--gold2);color:var(--gold2);padding:4px 14px;font-size:13px;letter-spacing:.1em}
+main{max-width:680px;margin:0 auto;padding:24px 16px 60px}
+.steps{display:flex;gap:8px;margin-bottom:24px}
+.steps div{flex:1;text-align:center;padding:8px;font-size:13px;border-bottom:3px solid var(--line);color:#999}
+.steps div.on{border-color:var(--gold);color:var(--gold);font-weight:600}
+.card{background:#fff;border:1px solid var(--line);padding:24px 20px;margin-bottom:20px}
+h2{font-size:18px;border-left:4px solid var(--gold);padding-left:10px;margin:0 0 18px}
+.f{margin-bottom:22px}
+.f>label,.f>.lb{display:block;font-weight:600;margin-bottom:6px;font-size:15px}
+.req{background:var(--red);color:#fff;font-size:11px;padding:1px 6px;margin-right:6px;vertical-align:2px}
+.opt{background:#999;color:#fff;font-size:11px;padding:1px 6px;margin-right:6px;vertical-align:2px}
+input[type=text],input[type=email],input[type=tel],input[type=date],input[type=number],select,textarea{width:100%;padding:11px 12px;border:1px solid #cfc5b3;font-size:16px;font-family:inherit;background:#fff;border-radius:0}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--gold2);border-color:var(--gold)}
+.row{display:flex;gap:10px}.row>*{flex:1}
+.ch{display:flex;flex-wrap:wrap;gap:8px}
+.ch label{display:flex;align-items:center;gap:6px;border:1px solid #cfc5b3;padding:9px 12px;cursor:pointer;font-size:14px;background:#fff}
+.ch label:has(input:checked){border-color:var(--gold);background:#fbf3e3}
+.note{font-size:12.5px;color:#7a6f5f;margin-top:6px}
+.xmas{border:2px solid var(--gold);background:linear-gradient(#fff,#fbf6ec);padding:18px}
+.xmas .note{color:var(--red);font-weight:600}
+.err{color:var(--red);font-size:13px;display:none;margin-top:4px}
+.f.ng .err{display:block}.f.ng input,.f.ng select{border-color:var(--red)}
+.btns{display:flex;gap:12px}
+button{flex:1;padding:15px;font-size:16px;font-family:inherit;border:0;cursor:pointer;letter-spacing:.1em}
+.next{background:var(--gold);color:#fff}.next:hover{background:#a37828}
+.back{background:#e8e1d4;color:var(--ink)}
+button:disabled{opacity:.5}
+.hide{display:none}
+.thanks{text-align:center;padding:40px 20px}
+.thanks h2{border:0;text-align:center;color:var(--gold)}
+footer{text-align:center;font-size:12px;color:#8a7f6e;padding:20px}
+</style>
+</head>
+<body>
+<header>
+  <div class="en">CHRISTMAS PLAN 2026</div>
+  <h1>TOTONOI富士山中湖<br>Xmasプラン 予約フォーム</h1>
+  <span class="badge">Instagram DM限定特典付き</span>
+</header>
+
+<main>
+<div class="steps"><div id="s1" class="on">1. ご宿泊内容</div><div id="s2">2. 予約者情報</div><div id="s3">3. 完了</div></div>
+
+<form id="fm" novalidate>
+<!-- ===== STEP 1 ===== -->
+<section id="p1">
+<div class="card">
+  <h2>ご宿泊内容</h2>
+  <div class="f row" style="display:flex">
+    <div><label><span class="req">必須</span>チェックイン日</label><input type="date" name="checkin" required><div class="err">選択してください</div></div>
+    <div><label><span class="req">必須</span>泊数</label><select name="nights" required><option value="">選択</option><option>1泊</option><option>2泊</option><option>3泊以上</option></select><div class="err">選択してください</div></div>
+  </div>
+  <div class="f row" style="display:flex">
+    <div><label><span class="req">必須</span>大人</label><select name="adults" required><option value="">選択</option><option>1名</option><option>2名</option><option>3名</option><option>4名</option><option>5名</option><option>6名</option></select><div class="err">選択してください</div></div>
+    <div><label><span class="opt">任意</span>子ども</label><select name="children"><option>0名</option><option>1名</option><option>2名</option><option>3名</option><option>4名</option></select></div>
+  </div>
+  <div class="f">
+    <label><span class="opt">任意</span>ワンちゃん同伴</label>
+    <select name="dogs"><option>なし</option><option>1頭</option><option>2頭</option><option>3頭以上</option></select>
+    <div class="note">※ワンちゃん連れはドッグラン4ベッド／ドッグランコテージのみ</div>
+  </div>
+  <div class="f">
+    <div class="lb"><span class="req">必須</span>夕食の有無</div>
+    <div class="ch">
+      <label><input type="radio" name="dinner" value="BBQ夕食あり" required>BBQ夕食あり</label>
+      <label><input type="radio" name="dinner" value="夕食なし（素泊まり・持ち込み）">夕食なし（素泊まり・持ち込み）</label>
+    </div><div class="err">選択してください</div>
+  </div>
+  <div class="f">
+    <div class="lb"><span class="req">必須</span>貸切サウナの有無</div>
+    <div class="ch">
+      <label><input type="radio" name="sauna" value="イグルーサウナ" required>イグルーサウナ</label>
+      <label><input type="radio" name="sauna" value="トレーラーサウナASEMA">トレーラーサウナ「ASEMA」</label>
+      <label><input type="radio" name="sauna" value="どちらでも可">どちらでも可</label>
+      <label><input type="radio" name="sauna" value="利用しない">利用しない</label>
+    </div>
+    <div class="note">料金：5,000円／90分（15:30〜21:00）※12/27〜1/4は設備点検のため休止予定</div>
+    <div class="err">選択してください</div>
+  </div>
+  <div class="f">
+    <div class="lb"><span class="opt">任意</span>体験オプション（複数選択可）</div>
+    <div class="ch">
+      <label><input type="checkbox" name="exp" value="焚き火づくり体験">焚き火づくり体験</label>
+      <label><input type="checkbox" name="exp" value="焚き火でおやつづくり">焚き火でおやつづくり</label>
+      <label><input type="checkbox" name="exp" value="スモア作り">スモア作り</label>
+      <label><input type="checkbox" name="exp" value="マシュマロ作り">マシュマロ作り</label>
+      <label><input type="checkbox" name="exp" value="飯盒炊飯（薪割り火起こし）">飯盒炊飯（薪割り火起こし）</label>
+      <label><input type="checkbox" name="exp" value="コーヒー焙煎体験">コーヒー焙煎体験</label>
+      <label><input type="checkbox" name="exp" value="オリジナルTシャツ作り">オリジナルTシャツ作り</label>
+      <label><input type="checkbox" name="exp" value="富士山ブランコ体験">富士山ブランコ体験</label>
+      <label><input type="checkbox" name="exp" value="サウナ道場">サウナ道場</label>
+      <label><input type="checkbox" name="exp" value="ウェルカムドリンク">ウェルカムドリンク</label>
+    </div>
+    <div class="note">内容・料金は確定時にご案内します。</div>
+  </div>
+  <div class="f">
+    <div class="lb"><span class="req">必須</span>希望ドーム</div>
+    <div class="ch">
+      <label><input type="radio" name="dome" value="スタンダード4ベッド" required>スタンダード4ベッド</label>
+      <label><input type="radio" name="dome" value="コネクト6ベッド">コネクト6ベッド</label>
+      <label><input type="radio" name="dome" value="ドッグラン4ベッド">ドッグラン4ベッド</label>
+      <label><input type="radio" name="dome" value="ドッグランコテージ">ドッグランコテージ</label>
+      <label><input type="radio" name="dome" value="おまかせ">おまかせ</label>
+    </div><div class="err">選択してください</div>
+  </div>
+  <div class="f xmas">
+    <div class="lb"><span class="req">必須</span>🎄 クリスマスプランを希望しますか？</div>
+    <div class="ch">
+      <label><input type="radio" name="xmas" value="希望する" required>クリスマスプランを希望する</label>
+      <label><input type="radio" name="xmas" value="希望しない">希望しない</label>
+    </div>
+    <div class="note">※クリスマスプランはお部屋が1部屋限定の為、ご案内出来ない場合がございます。</div>
+    <div class="err">選択してください</div>
+  </div>
+</div>
+<div class="btns"><button type="button" class="next" onclick="go(2)">次へ：予約者情報の入力</button></div>
+</section>
+
+<!-- ===== STEP 2 ===== -->
+<section id="p2" class="hide">
+<div class="card">
+  <h2>予約者の情報を入力してください</h2>
+  <div class="f"><label><span class="req">必須</span>氏名</label><input type="text" name="name" placeholder="山中 太郎" required autocomplete="name"><div class="err">入力してください</div></div>
+  <div class="f"><label><span class="req">必須</span>氏名（ふりがな）</label><input type="text" name="kana" placeholder="やまなか たろう" required pattern="^[ぁ-んー\s　]+$"><div class="err">ひらがなで入力してください</div></div>
+  <div class="f"><label><span class="req">必須</span>メールアドレス</label><input type="email" name="email" placeholder="example@mail.com" required autocomplete="email"><div class="err">正しいメールアドレスを入力してください</div></div>
+  <div class="f">
+    <div class="lb"><span class="req">必須</span>性別</div>
+    <div class="ch"><label><input type="radio" name="gender" value="男性" required>男性</label><label><input type="radio" name="gender" value="女性">女性</label></div>
+    <div class="err">選択してください</div>
+  </div>
+  <div class="f"><label><span class="req">必須</span>生年月日</label><input type="date" name="birth" required max="2010-12-31"><div class="err">入力してください</div></div>
+  <div class="f"><label><span class="req">必須</span>郵便番号</label><input type="tel" name="zip" placeholder="4010502（ハイフンなし）" required pattern="^\d{3}-?\d{4}$" inputmode="numeric" autocomplete="postal-code"><div class="note">入力すると住所が自動で入ります</div><div class="err">7桁の数字で入力してください</div></div>
+  <div class="f"><label><span class="req">必須</span>市区町村郡/番地</label><input type="text" name="addr" placeholder="山梨県南都留郡山中湖村平野295" required autocomplete="street-address"><div class="err">入力してください</div></div>
+  <div class="f"><label><span class="opt">任意</span>建物・アパート名など</label><input type="text" name="bldg"></div>
+  <div class="f"><label><span class="req">必須</span>連絡先（主）電話番号</label><input type="tel" name="tel" placeholder="09012345678" required pattern="^[0-9\-]{10,13}$" autocomplete="tel"><div class="err">電話番号を入力してください</div></div>
+  <div class="f">
+    <div class="lb"><span class="req">必須</span>当日の交通手段</div>
+    <div class="ch">
+      <label><input type="radio" name="access" value="車" required>車</label>
+      <label><input type="radio" name="access" value="JR・電車">JR・電車</label>
+      <label><input type="radio" name="access" value="その他">その他</label>
+    </div><div class="err">選択してください</div>
+  </div>
+  <div class="f"><label><span class="opt">任意</span>InstagramアカウントID</label><input type="text" name="insta" placeholder="@totonoi.fujiyamanakako"><div class="note">DM特典の照合に使用します</div></div>
+  <div class="f"><label><span class="opt">任意</span>ご要望・備考</label><textarea name="memo" rows="3" placeholder="記念日のお祝い、アレルギー等"></textarea></div>
+</div>
+<div class="btns"><button type="button" class="back" onclick="go(1)">戻る</button><button type="submit" class="next" id="sb">この内容で送信する</button></div>
+</section>
+</form>
+
+<section id="p3" class="hide card thanks">
+  <h2>送信が完了しました</h2>
+  <p>ご予約リクエストありがとうございます。<br>空室状況を確認のうえ、担当者よりInstagram DMまたはメールにてご連絡いたします。</p>
+  <p class="note">※この時点では予約は確定しておりません。</p>
+</section>
+</main>
+<footer>グランピングヴィレッジTOTONOI富士山中湖<br>〒401-0502 山梨県南都留郡山中湖村平野295</footer>
+
+<script>
+// ▼ GASのウェブアプリURLを貼り付け
+const GAS_URL = "https://script.google.com/macros/s/XXXXXXXX/exec";
+
+const fm = document.getElementById('fm');
+function check(sec){
+  let ok = true;
+  sec.querySelectorAll('.f').forEach(f=>{
+    const els=[...f.querySelectorAll('input,select,textarea')]; if(!els.length) return;
+    let bad=false;
+    const r=els.find(e=>e.required);
+    if(r){
+      if(r.type==='radio'){ bad=!f.querySelector('input:checked'); }
+      else bad=!r.checkValidity();
+    }
+    f.classList.toggle('ng',bad); if(bad) ok=false;
+  });
+  if(!ok) sec.querySelector('.ng').scrollIntoView({behavior:'smooth',block:'center'});
+  return ok;
+}
+function go(n){
+  if(n===2 && !check(document.getElementById('p1'))) return;
+  ['p1','p2','p3'].forEach((id,i)=>document.getElementById(id).classList.toggle('hide',i!==n-1));
+  ['s1','s2','s3'].forEach((id,i)=>document.getElementById(id).classList.toggle('on',i===n-1));
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+// 郵便番号→住所自動入力（zipcloud）
+fm.zip.addEventListener('input',e=>{
+  const z=e.target.value.replace(/\D/g,''); if(z.length!==7) return;
+  const s=document.createElement('script');
+  window.zipcb=d=>{ if(d.results){const r=d.results[0]; if(!fm.addr.value) fm.addr.value=r.address1+r.address2+r.address3;} s.remove(); };
+  s.src='https://zipcloud.ibsnet.co.jp/api/search?zipcode='+z+'&callback=zipcb';
+  document.body.appendChild(s);
+});
+fm.addEventListener('submit',async e=>{
+  e.preventDefault();
+  if(!check(document.getElementById('p2'))) return;
+  const fd=new FormData(fm), data={};
+  for(const [k,v] of fd){ data[k]= data[k] ? data[k]+'、'+v : v; }
+  data.exp = data.exp || 'なし';
+  const sb=document.getElementById('sb'); sb.disabled=true; sb.textContent='送信中...';
+  try{
+    await fetch(GAS_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain'},body:JSON.stringify(data)});
+    go(3);
+  }catch(err){
+    alert('送信に失敗しました。時間をおいて再度お試しいただくか、DMにてご連絡ください。');
+    sb.disabled=false; sb.textContent='この内容で送信する';
+  }
+});
+</script>
+</body>
+</html>
