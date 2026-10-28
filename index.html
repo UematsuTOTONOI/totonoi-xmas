@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta name="robots" content="noindex,nofollow">
-<title>Xmasプラン DM限定予約フォーム｜TOTONOI富士山中湖</title>
+<title>インフルエンサーご紹介限定予約フォーム｜TOTONOI富士山中湖</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
 <style>
 :root{--gold:#b88931;--gold2:#d6ad61;--ink:#2b2620;--bg:#faf7f1;--line:#e4dccd;--red:#8e2a2a;--green:#2f4a3a}
@@ -43,14 +43,19 @@ button:disabled{opacity:.5}
 .hide{display:none}
 .thanks{text-align:center;padding:40px 20px}
 .thanks h2{border:0;text-align:center;color:var(--gold)}
+.intro p{margin:0 0 10px;font-size:14px}.intro a,.note a{color:var(--gold)}
+.gift{background:#fbf3e3;border:1px solid var(--gold2);padding:12px 14px;margin:14px 0}
+.gift .gt{font-weight:600;color:var(--gold);margin-bottom:6px}.gift p{margin:4px 0}
+.vac{display:block;text-align:center;background:var(--green);color:#fff;text-decoration:none;padding:14px;margin-bottom:20px;letter-spacing:.05em}
+.vac:hover{opacity:.9}
 footer{text-align:center;font-size:12px;color:#8a7f6e;padding:20px}
 </style>
 </head>
 <body>
 <header>
   <div class="en">CHRISTMAS PLAN 2026</div>
-  <h1>TOTONOI富士山中湖<br>Xmasプラン 予約フォーム</h1>
-  <span class="badge">Instagram DM限定特典付き</span>
+  <h1>TOTONOI富士山中湖<br>インフルエンサーご紹介限定<br>予約フォーム</h1>
+  <span class="badge">ご紹介限定特典付き</span>
 </header>
 
 <main>
@@ -59,71 +64,52 @@ footer{text-align:center;font-size:12px;color:#8a7f6e;padding:20px}
 <form id="fm" novalidate>
 <!-- ===== STEP 1 ===== -->
 <section id="p1">
-<div class="card">
-  <h2>ご宿泊内容</h2>
-  <div class="f row" style="display:flex">
-    <div><label><span class="req">必須</span>チェックイン日</label><input type="date" name="checkin" required><div class="err">選択してください</div></div>
-    <div><label><span class="req">必須</span>泊数</label><select name="nights" required><option value="">選択</option><option>1泊</option><option>2泊</option><option>3泊以上</option></select><div class="err">選択してください</div></div>
-  </div>
-  <div class="f row" style="display:flex">
-    <div><label><span class="req">必須</span>大人</label><select name="adults" required><option value="">選択</option><option>1名</option><option>2名</option><option>3名</option><option>4名</option><option>5名</option><option>6名</option></select><div class="err">選択してください</div></div>
-    <div><label><span class="opt">任意</span>子ども</label><select name="children"><option>0名</option><option>1名</option><option>2名</option><option>3名</option><option>4名</option></select></div>
+<div class="card intro">
+  <p>ご入力内容を確認のうえ、ご希望のチェックイン日の空室状況をお調べし、後ほどスタッフよりご連絡いたします。</p>
+  <p><strong>※クリスマスプラン以外をご希望の方は、ご入力条件により一番最安のプランでご予約させていただきます。</strong></p>
+  <p><strong>※現在のご予約状況により、ご希望に添えない場合がございます。あらかじめご了承ください。</strong></p>
+  <div class="gift">
+    <div class="gt">🎁 本フォーム経由のご予約特典</div>
+    <p><b>シャンメリー1本サービス</b></p>
   </div>
   <div class="f">
-    <label><span class="opt">任意</span>ワンちゃん同伴</label>
-    <select name="dogs"><option>なし</option><option>1頭</option><option>2頭</option><option>3頭以上</option></select>
-    <div class="note">※ワンちゃん連れはドッグラン4ベッド／ドッグランコテージのみ</div>
-  </div>
-  <div class="f">
-    <div class="lb"><span class="req">必須</span>夕食の有無</div>
-    <div class="ch">
-      <label><input type="radio" name="dinner" value="BBQ夕食あり" required>BBQ夕食あり</label>
-      <label><input type="radio" name="dinner" value="夕食なし（素泊まり・持ち込み）">夕食なし（素泊まり・持ち込み）</label>
-    </div><div class="err">選択してください</div>
-  </div>
-  <div class="f">
-    <div class="lb"><span class="req">必須</span>貸切サウナの有無</div>
-    <div class="ch">
-      <label><input type="radio" name="sauna" value="イグルーサウナ" required>イグルーサウナ</label>
-      <label><input type="radio" name="sauna" value="トレーラーサウナASEMA">トレーラーサウナ「ASEMA」</label>
-      <label><input type="radio" name="sauna" value="どちらでも可">どちらでも可</label>
-      <label><input type="radio" name="sauna" value="利用しない">利用しない</label>
-    </div>
-    <div class="note">料金：5,000円／90分（15:30〜21:00）※12/27〜1/4は設備点検のため休止予定</div>
+    <label><span class="req">必須</span>ご利用人数</label>
+    <select name="people" required><option value="">選択</option><option>2名</option><option>3名</option><option>4名</option><option>5名</option><option>6名</option></select>
     <div class="err">選択してください</div>
   </div>
   <div class="f">
-    <div class="lb"><span class="opt">任意</span>体験オプション（複数選択可）</div>
+    <div class="lb"><span class="req">必須</span>夕食</div>
     <div class="ch">
-      <label><input type="checkbox" name="exp" value="焚き火づくり体験">焚き火づくり体験</label>
-      <label><input type="checkbox" name="exp" value="焚き火でおやつづくり">焚き火でおやつづくり</label>
-      <label><input type="checkbox" name="exp" value="スモア作り">スモア作り</label>
-      <label><input type="checkbox" name="exp" value="マシュマロ作り">マシュマロ作り</label>
-      <label><input type="checkbox" name="exp" value="飯盒炊飯（薪割り火起こし）">飯盒炊飯（薪割り火起こし）</label>
-      <label><input type="checkbox" name="exp" value="コーヒー焙煎体験">コーヒー焙煎体験</label>
-      <label><input type="checkbox" name="exp" value="オリジナルTシャツ作り">オリジナルTシャツ作り</label>
-      <label><input type="checkbox" name="exp" value="富士山ブランコ体験">富士山ブランコ体験</label>
-      <label><input type="checkbox" name="exp" value="サウナ道場">サウナ道場</label>
-      <label><input type="checkbox" name="exp" value="ウェルカムドリンク">ウェルカムドリンク</label>
+      <label><input type="radio" name="dinner" value="豪華BBQ 8,800円" required>豪華BBQ　8,800円</label>
+      <label><input type="radio" name="dinner" value="カジュアルBBQ 6,600円">カジュアルBBQ　6,600円</label>
+      <label><input type="radio" name="dinner" value="鍋 6,600円">鍋　6,600円</label>
+      <label><input type="radio" name="dinner" value="お食事無し（素泊まり）">お食事無し（素泊まり）</label>
     </div>
-    <div class="note">内容・料金は確定時にご案内します。</div>
+    <div class="note">お食事の詳細は<a href="https://www.yamanashi-sauna-glamping.com/meal/" target="_blank" rel="noopener">こちら</a></div><div class="err">選択してください</div>
   </div>
+  <div class="f row" style="display:flex">
+    <div><label><span class="opt">任意</span>貸切サウナ</label><select name="sauna"><option value="">利用しない</option><option>イグルーサウナ</option><option>トレーラーサウナ「ASEMA」</option><option>どちらでも可</option></select></div>
+    <div><label><span class="opt">任意</span>ご希望時間</label><select name="saunaTime"><option value="">選択</option><option>15:30〜17:00</option><option>17:30〜19:00</option><option>19:30〜21:00</option></select></div>
+  </div>
+  <div class="note" style="margin:-14px 0 22px">料金：5,000円／90分　サウナの詳細は<a href="https://www.yamanashi-sauna-glamping.com/sauna/" target="_blank" rel="noopener">こちら</a></div>
   <div class="f">
-    <div class="lb"><span class="req">必須</span>希望ドーム</div>
+    <div class="lb"><span class="req">必須</span>ご希望のお部屋</div>
     <div class="ch">
-      <label><input type="radio" name="dome" value="スタンダード4ベッド" required>スタンダード4ベッド</label>
-      <label><input type="radio" name="dome" value="コネクト6ベッド">コネクト6ベッド</label>
-      <label><input type="radio" name="dome" value="ドッグラン4ベッド">ドッグラン4ベッド</label>
-      <label><input type="radio" name="dome" value="ドッグランコテージ">ドッグランコテージ</label>
-      <label><input type="radio" name="dome" value="おまかせ">おまかせ</label>
-    </div><div class="err">選択してください</div>
+      <label><input type="radio" name="dome" value="シングルドーム" required>シングルドーム（定員6名）</label>
+      <label><input type="radio" name="dome" value="ドッグランドーム">ドッグランドーム（定員6名）</label>
+      <label><input type="radio" name="dome" value="コネクトドーム">コネクトドーム（定員6名）</label>
+      <label><input type="radio" name="dome" value="ドッグコテージ">ドッグコテージ（定員4名）</label>
+    </div>
+    <div class="note">ドームの種類は<a href="https://www.yamanashi-sauna-glamping.com/room/" target="_blank" rel="noopener">こちら</a></div>
+    <div class="err">選択してください</div>
   </div>
   <div class="f xmas">
     <div class="lb"><span class="req">必須</span>🎄 クリスマスプランを希望しますか？</div>
     <div class="ch">
       <label><input type="radio" name="xmas" value="希望する" required>クリスマスプランを希望する</label>
-      <label><input type="radio" name="xmas" value="希望しない">希望しない</label>
+      <label><input type="radio" name="xmas" value="希望しない（最安プランで予約）">希望しない（最安プランで予約する）</label>
     </div>
+    <p style="margin:10px 0 0;font-size:14px">クリスマスデコレーションされたお部屋に優先的にご案内＋クリスマス限定ケーキ付き<br><b>料金：4,000円</b></p>
     <div class="note">※クリスマスプランはお部屋が1部屋限定の為、ご案内出来ない場合がございます。</div>
     <div class="err">選択してください</div>
   </div>
@@ -156,17 +142,17 @@ footer{text-align:center;font-size:12px;color:#8a7f6e;padding:20px}
       <label><input type="radio" name="access" value="その他">その他</label>
     </div><div class="err">選択してください</div>
   </div>
-  <div class="f"><label><span class="opt">任意</span>InstagramアカウントID</label><input type="text" name="insta" placeholder="@totonoi.fujiyamanakako"><div class="note">DM特典の照合に使用します</div></div>
   <div class="f"><label><span class="opt">任意</span>ご要望・備考</label><textarea name="memo" rows="3" placeholder="記念日のお祝い、アレルギー等"></textarea></div>
 </div>
+<p class="note" style="text-align:center;margin:-6px 0 14px">※ご入力いただいた個人情報は、予約の為だけに使用します。</p>
 <div class="btns"><button type="button" class="back" onclick="go(1)">戻る</button><button type="submit" class="next" id="sb">この内容で送信する</button></div>
 </section>
 </form>
 
 <section id="p3" class="hide card thanks">
   <h2>送信が完了しました</h2>
-  <p>ご予約リクエストありがとうございます。<br>空室状況を確認のうえ、担当者よりInstagram DMまたはメールにてご連絡いたします。</p>
-  <p class="note">※この時点では予約は確定しておりません。</p>
+  <p>ご予約リクエストありがとうございます。<br>空室状況を確認のうえ、担当者よりSNSのDMまたはメールにてご連絡いたします。</p>
+  <p class="note">※この時点では予約は確定しておりません。<br>※ご入力いただいた個人情報は、予約の為だけに使用します。</p>
 </section>
 </main>
 <footer>グランピングヴィレッジTOTONOI富士山中湖<br>〒401-0502 山梨県南都留郡山中湖村平野295</footer>
@@ -176,6 +162,10 @@ footer{text-align:center;font-size:12px;color:#8a7f6e;padding:20px}
 const GAS_URL = "https://script.google.com/macros/s/XXXXXXXX/exec";
 
 const fm = document.getElementById('fm');
+// チェックイン日：12/1〜12/25のみ
+(()=>{const w='日月火水木金土',y=2026,sel=document.getElementById('checkin');
+  for(let d=1;d<=25;d++){const dt=new Date(y,11,d),v=`${y}/12/${String(d).padStart(2,'0')}`;
+    sel.add(new Option(`12月${d}日（${w[dt.getDay()]}）`,v));}})();
 function check(sec){
   let ok = true;
   sec.querySelectorAll('.f').forEach(f=>{
@@ -210,7 +200,7 @@ fm.addEventListener('submit',async e=>{
   if(!check(document.getElementById('p2'))) return;
   const fd=new FormData(fm), data={};
   for(const [k,v] of fd){ data[k]= data[k] ? data[k]+'、'+v : v; }
-  data.exp = data.exp || 'なし';
+  data.sauna = data.sauna || '利用しない';
   const sb=document.getElementById('sb'); sb.disabled=true; sb.textContent='送信中...';
   try{
     await fetch(GAS_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain'},body:JSON.stringify(data)});
